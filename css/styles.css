@@ -20,6 +20,11 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    line-height: 1.5;
+}
 
 /* NAV BAR */
 
@@ -91,4 +96,48 @@ h1 {
 .p-features {
     
     color: #8f8f8f;
+}
+
+/* TESTIMONAL SECTIONS */
+
+#testimonials {
+  
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* PRESS */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* PRICING */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
 }
