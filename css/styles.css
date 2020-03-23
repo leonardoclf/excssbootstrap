@@ -10,7 +10,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -58,17 +58,33 @@ h2 {
 /* Title Image */
 
 .title-image {
-    width: 60%;
+    width: 55%;
     /* Aqui temos uma função para manipular o angulo da img */
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width:1000px) {
+    .title-image {
+        width: 55;
+        position: static;
+        text-align: right;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
 }
 
 
 /* FEATURES SECTION */
 
 #features {
-    
+    background-color: #fff;
     padding: 7% 15%;
+    position: relative;
+    
 
 }
 
@@ -134,10 +150,42 @@ h2 {
 /* PRICING */
 
 #pricing {
-    padding: 100px;
+    padding: 80px;
     text-align: center;
 }
 
 .pricing-col {
     padding: 3% 2%;
+}
+
+
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 5% 5% 2% 5%;
+}
+
+.h3-cta {
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+#footer {
+    padding-top: 3%;
+    background-color: #fff;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.fto {
+    margin: 10px;
+    
+}
+
+.pfto {
+    margin-top: 5px;
 }
